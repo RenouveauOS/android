@@ -26,6 +26,10 @@
   <remote  name="rr-d"
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="pie" />
+
+  <remote  name="renouveau"
+           fetch="https://github.com/RenouveauOS"
+           revision="renouveau-9.0" />
 		   
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
@@ -689,6 +693,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  <include name="snippets/devices.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- vendor: Google -->
+  <project path="vendor/google" name="DirtyUnicorns/android_vendor_google" remote="github" />
+
+  <!-- marlin: Google Pixel XL -->
+  <project path="device/google/marlin" name="BootleggersROM-Devices/device_google_marlin" remote="github" />
+  <project path="kernel/google/marlin" name="BootleggersROM-Devices/kernel_google_marlin" remote="github" />
+
+  <!-- cedric: Motorola Moto G5 -->
+  <project path="device/motorola/cedric" name="Sohamlad7/android_device_motorola_cedric" remote="github" />
+  <project path="kernel/motorola/cedric" name="Sohamlad7/android_kernel_motorola_cedric" remote="github" />
+  <project path="vendor/motorola/cedric" name="Sohamlad7/android_vendor_motorola_cedric" remote="github" />
+
+  <!-- vendor: Samsung -->
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" />
+
+  <!-- zerofltexx: Samsung Galaxy S6 Edge+ -->
+  <project path="device/samsung/zerofltexx" name="android_device_samsung_zerofltexx" remote="rr-d" />
+  <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="github" />
+
+  <!-- zerofltexx: Samsung Galaxy S6 Edge+ -->
+  <project path="device/samsung/zerofltexx" name="android_device_samsung_zerofltexx" />
+
+</manifest>
