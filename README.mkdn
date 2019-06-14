@@ -119,3 +119,14 @@ After doing so, redo everything stated from the Building Section.
 Well, congratulations on your victory! Now, you have a .zip file that is flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credit to the LineageOS, Resurrection Remix, and Renouveau teams and their contributors! Also keep in mind that if an official build exists for a device, no unofficial builds should be released publicly. Do come and build Renouveau another time as the source code is routinely being improved upon. If you wish to contibute, feel free to make a pull request to the proper repository! See you again builder!
 
 Note: If you decide to create a thread on XDA, please limit the thread to only one per device. More than one thread will not be allowed per device as it creates confusion amongst users and makes it hard for us to track bug reports.
+
+## Support
+For help and support with Renouveau (or to join others in feedback and community), visit the [Renouveau Discord server](https://discord.gg/JDvNyMv)!
+
+## Licenses
+Please read and adhere to all licenses found in each repository for the Renouveau project. Failure to do so can lead to legal action being taken against you.
+
+## Donations
+All donations are highly appreciated. They will help pay for server costs to spit out builds for your devices once a stable monthly flow of donations is received, and even help point my attention to Renouveau to fix issues and implement newer and better features!
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JoshuaDoes)
