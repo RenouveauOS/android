@@ -65,7 +65,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initialize the Renouveau repo and download the manifest
 
-      $  repo init -u https://github.com/Renouveau/android.git -b renouveau-9.0
+      $  repo init -u https://github.com/RenouveauOS/android.git -b renouveau-9.0
 
 ##### Sync the source code
 [Hint: This might take a long time as the source is ~26GB]
