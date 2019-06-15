@@ -20,7 +20,4 @@
   <project path="device/samsung/zerofltexx" name="android_device_samsung_zerofltexx" remote="rr-d" />
   <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="github" />
 
-  <!-- zerofltexx: Samsung Galaxy S6 Edge+ -->
-  <project path="device/samsung/zerofltexx" name="android_device_samsung_zerofltexx" />
-
 </manifest>
