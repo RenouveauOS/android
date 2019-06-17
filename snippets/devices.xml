@@ -17,7 +17,7 @@
 	<project path="vendor/motorola/cedric" name="Sohamlad7/android_vendor_motorola_cedric" remote="github" revision="lineage-16.0" />
 
 	<!-- vendor: Samsung Galaxy Note 5 -->
-	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="github" />
+	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="renouveau" />
 
 	<!-- hardware: Samsung Galaxy Note 5 -->
 	<project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />

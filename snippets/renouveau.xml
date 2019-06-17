@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="android" name="platform_manifest" remote="renouveau" />
+	<project path="android" name="android" remote="renouveau" />
 	<project path="build/soong" name="android_build_soong" remote="renouveau" >
     	<linkfile src="root.bp" dest="Android.bp" />
     	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
