@@ -17,6 +17,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+  
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-16.0" />
 
   <remote  name="rr"
            fetch="https://github.com/ResurrectionRemix"
@@ -691,8 +695,14 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
+  <!-- LineageOS -->
   <include name="snippets/lineage.xml" />
+  
+  <!-- ResurrectionRemix -->
   <include name="snippets/rr.xml" />
+  
+  <!-- Renouveau -->
+  <include name="snippets/renouveau.xml" />
   <include name="snippets/devices.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />

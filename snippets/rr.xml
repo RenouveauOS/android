@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="android" name="platform_manifest" remote="rr" />
+  <!--<project path="android" name="platform_manifest" remote="rr" />-->
   <project path="build/make" name="android_build" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -11,9 +11,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="android_build_soong" remote="rr" >
+  <!--<project path="build/soong" name="android_build_soong" remote="rr" >
     <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />-->
 </project>
 <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="rr" />
 <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator_Pie" groups="pdk-fs" remote="rr" />

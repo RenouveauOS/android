@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- vendor: Google -->
-  <project path="vendor/google" name="DirtyUnicorns/android_vendor_google" remote="github" />
+	<remote name="nexus"
+			fetch="https://github.com"
+			revision="nx-9.0" />
 
-  <!-- marlin: Google Pixel XL -->
-  <project path="device/google/marlin" name="BootleggersROM-Devices/device_google_marlin" remote="github" />
-  <project path="kernel/google/marlin" name="BootleggersROM-Devices/kernel_google_marlin" remote="github" />
+	<!-- vendor: Google -->
+	<project path="vendor/google" name="DirtyUnicorns/android_vendor_google" remote="github" revision="p9x" />
 
-  <!-- cedric: Motorola Moto G5 -->
-  <project path="device/motorola/cedric" name="Sohamlad7/android_device_motorola_cedric" remote="github" />
-  <project path="kernel/motorola/cedric" name="Sohamlad7/android_kernel_motorola_cedric" remote="github" />
-  <project path="vendor/motorola/cedric" name="Sohamlad7/android_vendor_motorola_cedric" remote="github" />
+	<!-- marlin: Google Pixel XL -->
+	<project path="device/google/marlin" name="BootleggersROM-Devices/device_google_marlin" remote="github" revision="pasta" />
+	<project path="kernel/google/marlin" name="BootleggersROM-Devices/kernel_google_marlin" remote="github" revision="pasta" />
 
-  <!-- vendor: Samsung -->
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" />
+	<!-- cedric: Motorola Moto G5 -->
+	<project path="device/motorola/cedric" name="Sohamlad7/android_device_motorola_cedric" remote="github" revision="lineage-16.0" />
+	<project path="vendor/motorola/cedric" name="Sohamlad7/android_vendor_motorola_cedric" remote="github" revision="lineage-16.0" />
 
-  <!-- zerofltexx: Samsung Galaxy S6 Edge+ -->
-  <project path="device/samsung/zerofltexx" name="android_device_samsung_zerofltexx" remote="rr-d" />
-  <project path="device/samsung/zero-common" name="enesuzun2002/android_device_samsung_zero-common" remote="github" />
+	<!-- vendor: Samsung Galaxy Note 5 -->
+	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="github" />
+
+	<!-- hardware: Samsung Galaxy Note 5 -->
+	<project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />
+	<project path="hardware/samsung_slsi-cm/exynos" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos" remote="nexus" />
+	<project path="hardware/samsung_slsi-cm/exynos5" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos5" remote="nexus" />
+	<project path="hardware/samsung_slsi-cm/exynos7420" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos7420" remote="nexus" />
+	<project path="hardware/samsung_slsi-cm/openmax" name="enesuzun2002/android_hardware_samsung_slsi-cm_openmax" remote="nexus" />
+	
+	<!-- nobleltetmo: Samsung Galaxy Note 5 T-Mobile -->
+	<project path="device/samsung/noblelte-common" name="android_device_samsung_noblelte-common" remote="renouveau" />
+	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
+	
+	<!-- vendor: Xiaomi -->
+	<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" />
+	
+	<!-- beryllium: Xiaomi Poco F1 -->
+	<project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="lineage" />
 
 </manifest>
