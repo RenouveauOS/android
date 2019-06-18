@@ -15,4 +15,5 @@
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
 	<project path="device/renouveau/sepolicy" name="android_device_renouveau_sepolicy" remote="renouveau" />
+	<project path="lineage-sdk" name="android_lineage-sdk" remote="renouveau" />
 </manifest>

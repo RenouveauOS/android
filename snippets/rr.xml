@@ -26,7 +26,7 @@
 <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="pie" clone-depth="1" />
 <!--<project path="vendor/rr" name="android_vendor_resurrection" remote="rr"/>-->
 <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rr" />
-<project path="lineage-sdk" name="android_lineage-sdk" remote="rr" />
+<!--<project path="lineage-sdk" name="android_lineage-sdk" remote="rr" />-->
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
 <!--<project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="rr" />-->
 <project path="frameworks/av" name="frameworks_av" remote="rr" />
