@@ -18,4 +18,5 @@
 	<project path="lineage-sdk" name="android_lineage-sdk" remote="renouveau" />
 	<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="renouveau" />
 	<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="renouveau" />
+	<project path="frameworks/base" name="android_frameworks_base" remote="renouveau" />
 </manifest>
