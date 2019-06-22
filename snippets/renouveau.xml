@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<!-- Repo manifest -->
+	<project path="android" name="android" remote="renouveau" />
+
+	<!-- Build system -->
 	<project path="build/make" name="android_build" remote="renouveau" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -9,15 +13,25 @@
 		<linkfile src="target" dest="build/target" />
 		<linkfile src="tools" dest="build/tools" />
 	</project>
-	<project path="android" name="android" remote="renouveau" />
 	<project path="build/soong" name="android_build_soong" remote="renouveau" >
 		<linkfile src="root.bp" dest="Android.bp" />
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
-	<project path="device/renouveau/sepolicy" name="android_device_renouveau_sepolicy" remote="renouveau" />
-	<project path="lineage-sdk" name="android_lineage-sdk" remote="renouveau" />
+
+	<!-- Vendor -->
+	<project path="vendor/renouveau" name="android_vendor_renouveau" remote="renouveau" />
+
+	<!-- Frameworks -->
+	<project path="frameworks/base" name="android_frameworks_base" remote="renouveau" />
+
+	<!-- SEPolicy -->
 	<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="renouveau" />
 	<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="renouveau" />
-	<project path="frameworks/base" name="android_frameworks_base" remote="renouveau" />
+	<project path="device/renouveau/sepolicy" name="android_device_renouveau_sepolicy" remote="renouveau" />
+
+	<!-- Overlays -->
 	<project path="packages/overlays/Lineage" name="android_packages_overlays_Renouveau" remote="renouveau" />
+
+	<!-- Lineage SDK -->
+	<project path="lineage-sdk" name="android_lineage-sdk" remote="renouveau" />
 </manifest>
