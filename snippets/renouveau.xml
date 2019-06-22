@@ -34,4 +34,8 @@
 
 	<!-- Lineage SDK -->
 	<project path="lineage-sdk" name="android_lineage-sdk" remote="renouveau" />
+
+	<!-- Apps -->
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="renouveau" />
+	<project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="renouveau" />
 </manifest>
