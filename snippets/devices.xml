@@ -5,8 +5,17 @@
 			fetch="https://github.com"
 			revision="nx-9.0" />
 
+	<!-- VENDOR COMMONS -->
+
 	<!-- vendor: Google -->
 	<project path="vendor/google" name="DirtyUnicorns/android_vendor_google" remote="github" revision="p9x" />
+
+	<!-- vendor: Xiaomi -->
+	<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" />
+
+
+
+	<!-- DEVICES -->
 
 	<!-- marlin: Google Pixel XL -->
 	<project path="device/google/marlin" name="BootleggersROM-Devices/device_google_marlin" remote="github" revision="pasta" />
@@ -16,28 +25,24 @@
 	<project path="device/motorola/cedric" name="Sohamlad7/android_device_motorola_cedric" remote="github" revision="lineage-16.0" />
 	<project path="vendor/motorola/cedric" name="Sohamlad7/android_vendor_motorola_cedric" remote="github" revision="lineage-16.0" />
 
-	<!-- vendor: Samsung Galaxy Note 5 -->
+	<!-- nobleltetmo: Samsung Galaxy Note 5 T-Mobile -->
 	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="renouveau" />
-
-	<!-- hardware: Samsung Galaxy Note 5 -->
+	<project path="device/samsung/noblelte-common" name="android_device_samsung_noblelte-common" remote="renouveau" />
+	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
+	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="lineage-15.1" />
 	<project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/exynos" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/exynos5" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos5" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/exynos7420" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos7420" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/openmax" name="enesuzun2002/android_hardware_samsung_slsi-cm_openmax" remote="nexus" />
-	
-	<!-- nobleltetmo: Samsung Galaxy Note 5 T-Mobile -->
-	<project path="device/samsung/noblelte-common" name="android_device_samsung_noblelte-common" remote="renouveau" />
-	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
-	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="lineage-15.1" />
-	
+
 	<!-- pioneer: Sony Xperia XA2 -->
 	<project path="device/sony/nile-common" name="android_device_sony_nile-common" remote="renouveau" />
 	<project path="device/sony/pioneer" name="android_device_sony_pioneer" remote="renouveau" />
+	<project path="kernel/sony/sdm660" name="android_kernel_sony_sdm660" remote="lineage" />
+	<project path="hardware/sony/macaddrsetup" name="android_hardware_sony_macaddrsetup" remote="lineage" />
+	<project path="hardware/sony/simdetect" name="android_hardware_sony_simdetect" remote="lineage" />
 
-	<!-- vendor: Xiaomi -->
-	<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" />
-	
 	<!-- beryllium: Xiaomi Poco F1 -->
 	<project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="lineage" />
 
