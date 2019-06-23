@@ -31,6 +31,10 @@
 	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
 	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="lineage-15.1" />
 	
+	<!-- pioneer: Sony Xperia XA2 -->
+	<project path="device/sony/nile-common" name="android_device_sony_nile-common" remote="renouveau" />
+	<project path="device/sony/pioneer" name="android_device_sony_pioneer" remote="renouveau" />
+
 	<!-- vendor: Xiaomi -->
 	<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" />
 	
