@@ -23,6 +23,7 @@
 
 	<!-- Frameworks -->
 	<project path="frameworks/base" name="android_frameworks_base" remote="renouveau" />
+	<project path="frameworks/native" name="android_frameworks_native" remote="renouveau" />
 
 	<!-- SEPolicy -->
 	<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="renouveau" />

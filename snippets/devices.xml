@@ -24,6 +24,9 @@
 	<!-- cedric: Motorola Moto G5 -->
 	<project path="device/motorola/cedric" name="Sohamlad7/android_device_motorola_cedric" remote="github" revision="lineage-16.0" />
 	<project path="vendor/motorola/cedric" name="Sohamlad7/android_vendor_motorola_cedric" remote="github" revision="lineage-16.0" />
+	<project path="kernel/motorola/msm8937" name="Sohamlad7/android_kernel_motorola_msm8937" remote="github" revision="lineage-16.0" />
+	<project path="system/qcom" name="android_system_qcom" remote="lineage" />
+	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
 	<!-- nobleltetmo: Samsung Galaxy Note 5 T-Mobile -->
 	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="renouveau" />
