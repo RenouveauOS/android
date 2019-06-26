@@ -64,7 +64,7 @@
 	<project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="lineage" />
 	
 	<!-- ovation: Nook HD+ -->
-	<project path="device/bn/common" name="android_device_bn_common" remote="airend" revision="wip/k-next" />
+	<project path="device/bn/common" name="android_device_bn_common" remote="renouveau" />
 	<project path="device/bn/ovation" name="android_device_bn_ovation" remote="renouveau" />
 	<project path="kernel/bn/omap" name="android_kernel_bn_omap" remote="airend" revision="3.4/nookhd" />
 	<project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="airend" revision="stable" />
