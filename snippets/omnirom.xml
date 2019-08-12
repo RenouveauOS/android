@@ -5,7 +5,5 @@
 			revision="android-9.0" />
 
 	<!-- TWRP -->
-	<project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" >
-		<linkfile src="bootable/recovery-twrp" dest="bootable/recovery" />
-	</project>
+	<project path="bootable/recovery" name="android_bootable_recovery" remote="omni" />
 </manifest>
