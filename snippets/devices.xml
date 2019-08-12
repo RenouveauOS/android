@@ -19,7 +19,7 @@
 	<project path="vendor/google" name="DirtyUnicorns/android_vendor_google" remote="github" revision="p9x" />
 
 	<!-- vendor: Xiaomi -->
-	<project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" />
+	<!-- <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" remote="github" /> -->
 	
 	<!-- vendor: Nook -->
 	<project path="vendor/ti" name="proprietary_vendor_ti" remote="airend" revision="stable" />
