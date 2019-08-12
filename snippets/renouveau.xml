@@ -18,6 +18,9 @@
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
 
+	<!-- External dependencies -->
+	<project path="external/libminui" name="android_external_libminui" remote="renouveau" />
+
 	<!-- Vendor -->
 	<project path="vendor/renouveau" name="android_vendor_renouveau" remote="renouveau" />
 
