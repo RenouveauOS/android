@@ -44,7 +44,7 @@
 	<project path="device/samsung/noblelte-common" name="android_device_samsung_noblelte-common" remote="renouveau" />
 	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
 	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="lineage-15.1" />
-	<project path="hardware/samsung" name="enesuzun2002/android_hardware_samsung" remote="nexus" />
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="renouveau" />
 	<project path="hardware/samsung_slsi-cm/exynos" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/exynos5" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos5" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/exynos7420" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos7420" remote="nexus" />
