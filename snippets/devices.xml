@@ -13,6 +13,10 @@
 			fetch="https://github.com/Unlegacy-Android"
 			revision="aosp-9.0" />
 
+	<remote name="x86"
+			fetch="git://git.osdn.net/gitroot/android-x86"
+			revision="pie-x86" />
+
 	<!-- VENDOR COMMONS -->
 
 	<!-- vendor: Google -->
@@ -68,5 +72,80 @@
 	<project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="unlegacy" revision="stable" />
 	<project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="unlegacy" revision="stable" />
 	<project path="external/jhead" name="platform/external/jhead" remote="aosp" revision="nougat-mr2.3-release" groups="omap4,espresso,tuna" />
+
+	<!-- x86_64: Generic x86_64 -->
+<!--
+	<remove-project name="device/generic/common" />
+	<remove-project name="device/generic/x86_64" />
+	<remove-project name="device/generic/x86" />
+	<remove-project name="platform/external/drm_gralloc" />
+	<remove-project name="platform/external/drm_hwcomposer" />
+	<remove-project name="LineageOS/android_external_exfat" />
+	<remove-project name="platform/external/libdrm" />
+	<remove-project name="LineageOS/android_external_mksh" />
+	<remove-project name="LineageOS/android_external_ntfs-3g" />
+	<remove-project name="platform/external/swiftshader" />
+	<remove-project name="platform/hardware/intel/audio_media" />
+	<remove-project name="platform/hardware/intel/common/bd_prov" />
+	<remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+	<remove-project name="platform/hardware/intel/common/libva" />
+	<remove-project name="platform/hardware/intel/common/libwsbm" />
+	<remove-project name="platform/hardware/intel/common/omx-components" />
+	<remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+	<remove-project name="platform/hardware/intel/img/psb_headers" />
+	<remove-project name="platform/hardware/intel/img/psb_video" />
+	<remove-project name="LineageOS/android_hardware_ril" />
+	<remove-project name="LineageOS/android_system_bt" />
+	<remove-project name="android_system_core" />
+	<remove-project name="LineageOS/android_system_extras" />
+	<remove-project name="platform/system/media" />
+
+	<project path="kernel/generic" name="kernel/common" remote="x86" revision="kernel-4.19" />
+	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
+	<project path="device/generic/common" name="device/generic/common" remote="x86" />
+	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" />
+	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" />
+	<project path="device/generic/x86" name="device/generic/x86" remote="x86" />
+	<project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" />
+	<project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" />
+	<project path="external/bluetooth/blue" name="platform/external/bluetooth/bluez" remote="x86" />
+	<project path="external/busybox" name="platform/external/busybox" remote="x86" />
+	<project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" />
+	<project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" />
+	<project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" />
+	<project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" />
+	<project path="external/efivar" name="platform/external/efivar" remote="x86" />
+	<project path="external/exfat" name="platform/external/exfat" remote="x86" />
+	<project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" />
+	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" />
+	<project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" />
+	<project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" />
+	<project path="external/libdrm" name="platform/external/libdrm" remote="x86" />
+	<project path="external/llvm80" name="platform/external/llvm" remote="x86" />
+	<project path="external/mesa" name="platform/external/mesa" remote="x86" />
+	<project path="external/mksh" name="platform/external/mksh" remote="x86" />
+	<project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" />
+	<project path="external/s2tc" name="platform/external/s2tc" remote="x86" />
+	<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" />
+	<project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" />
+	<project path="external/v86d" name="platform/external/v86d" remote="x86" />
+	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" />
+	<project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" />
+	<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" />
+	<project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" />
+	<project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" />
+	<project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" />
+	<project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" />
+	<project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" />
+	<project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" />
+	<project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" />
+	<project path="hardware/ril" name="platform/hardware/ril" remote="x86" />
+	<project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" />
+	<project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" />
+	<project path="system/bt" name="platform/system/bt" remote="x86" />
+	<project path="system/core" name="platform/system/core" remote="x86" />
+	<project path="system/extras" name="platform/system/extras" remote="x86" />
+	<project path="system/media" name="platform/system/media" remote="x86" />
+-->
 
 </manifest>

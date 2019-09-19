@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<remote name="omni"
-			fetch="https://github.com/omnirom"
-			revision="android-9.0" />
-
-	<!-- TWRP -->
-	<project path="bootable/recovery" name="android_bootable_recovery" remote="omni" />
-</manifest>

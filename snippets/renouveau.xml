@@ -18,6 +18,9 @@
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
 
+	<!-- TWRP -->
+	<project path="bootable/recovery" name="android_bootable_recovery" remote="renouveau" />
+
 	<!-- Vendor -->
 	<project path="vendor/renouveau" name="android_vendor_renouveau" remote="renouveau" />
 
