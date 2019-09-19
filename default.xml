@@ -666,9 +666,6 @@
   <include name="snippets/renouveau.xml" />
   <include name="snippets/devices.xml" />
 
-  <!-- OmniROM -->
-  <include name="snippets/omnirom.xml" />
-
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
