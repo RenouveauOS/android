@@ -42,4 +42,7 @@
 	<!-- Apps -->
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="renouveau" />
 	<project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="renouveau" />
+
+	<!-- External -->
+	<project path="external/busybox" name="android_external_busybox" remote="renouveau" />
 </manifest>

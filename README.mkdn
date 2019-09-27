@@ -70,7 +70,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 ##### Sync the source code
 [Hint: This might take a long time as the source is ~26GB]
 
-      $  repo sync -f --force-sync --no-clone-bundle
+      $  repo sync --force-sync --no-clone-bundle --no-tags
 
 ### Building Renouveau
 - Preparing required binaries and device drivers
@@ -110,7 +110,7 @@ If you found it, then congratulations! If you didn't, try retrying the build pro
 
       $ cd ~/Renouveau
       $ make clean
-      $ repo sync --force-sync
+      $ repo sync --force-sync --no-clone-bundle --no-tags
 
 After doing so, redo everything stated from the Building Section.
 

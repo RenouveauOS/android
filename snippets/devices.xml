@@ -54,6 +54,14 @@
 	<project path="hardware/samsung_slsi-cm/exynos7420" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos7420" remote="nexus" />
 	<project path="hardware/samsung_slsi-cm/openmax" name="enesuzun2002/android_hardware_samsung_slsi-cm_openmax" remote="nexus" />
 
+	<!-- t0lte: Samsung Galaxy Note II LTE -->
+	<project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="renouveau" />
+	<project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="renouveau" />
+	<project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="renouveau" />
+	<project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="renouveau" />
+	<project path="vendor/samsung/t0lte" name="proprietary_vendor_samsung_t0lte" remote="renouveau" />
+	<project path="vendor/samsung/smdk4412-common" name="proprietary_vendor_samsung_smdk4412-common" remote="renouveau" />
+
 	<!-- pioneer: Sony Xperia XA2 -->
 	<project path="device/sony/nile-common" name="android_device_sony_nile-common" remote="renouveau" />
 	<project path="device/sony/pioneer" name="android_device_sony_pioneer" remote="renouveau" />
