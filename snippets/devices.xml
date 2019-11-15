@@ -3,7 +3,7 @@
 
 	<remote name="enesuzun2002"
 			fetch="https://github.com/enesuzun2002"
-			revision="nx-9.0" />
+			revision="nx-10.0" />
 	
 	<remote name="airend"
 			fetch="https://github.com/airend"
@@ -55,7 +55,7 @@
 	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="renouveau" />
 	<project path="device/samsung/noblelte-common" name="android_device_samsung_noblelte-common" remote="renouveau" />
 	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
-	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="nx-10.0" />
+	<project path="kernel/samsung/exynos7420" name="android_kernel_samsung_exynos7420" remote="enesuzun2002" />
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="renouveau" />
 	<project path="hardware/samsung_slsi-cm/exynos" name="android_hardware_samsung_slsi-cm_exynos" remote="enesuzun2002" />
 	<project path="hardware/samsung_slsi-cm/exynos5" name="android_hardware_samsung_slsi-cm_exynos5" remote="enesuzun2002" />
