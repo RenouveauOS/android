@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="nexus"
-			fetch="https://github.com"
+	<remote name="enesuzun2002"
+			fetch="https://github.com/enesuzun2002"
 			revision="nx-9.0" />
 	
 	<remote name="airend"
@@ -17,6 +17,14 @@
 			fetch="git://git.osdn.net/gitroot/android-x86"
 			revision="pie-x86" />
 
+	<remote name="incom"
+			fetch="https://gitlab.incom.co/"
+			revision="lineage-16.0" />
+
+	<remote name="sr"
+			fetch="https://gitlab.com/switchroot/"
+			revision="lineage-rel32" />
+
 	<!-- VENDOR COMMONS -->
 
 	<!-- vendor: Google -->
@@ -29,6 +37,9 @@
 	<project path="vendor/ti" name="proprietary_vendor_ti" remote="airend" revision="stable" />
 	<project path="vendor/bn" name="proprietary_vendor_bn" remote="unlegacy" revision="stable" />
 	<project path="vendor/widevine" name="proprietary_vendor_widevine" remote="unlegacy" />
+
+	<!-- vendor: NVIDIA -->
+	<project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" />
 
 	<!-- DEVICES -->
 
@@ -47,12 +58,12 @@
 	<project path="vendor/samsung/noblelte-common" name="proprietary_vendor_samsung_noblelte-common" remote="renouveau" />
 	<project path="device/samsung/noblelte-common" name="android_device_samsung_noblelte-common" remote="renouveau" />
 	<project path="device/samsung/nobleltetmo" name="android_device_samsung_nobleltetmo" remote="renouveau" />
-	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="lineage-15.1" />
+	<project path="kernel/samsung/exynos7420" name="LineageOS/android_kernel_samsung_exynos7420" remote="github" revision="nx-10.0" />
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="renouveau" />
-	<project path="hardware/samsung_slsi-cm/exynos" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos" remote="nexus" />
-	<project path="hardware/samsung_slsi-cm/exynos5" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos5" remote="nexus" />
-	<project path="hardware/samsung_slsi-cm/exynos7420" name="enesuzun2002/android_hardware_samsung_slsi-cm_exynos7420" remote="nexus" />
-	<project path="hardware/samsung_slsi-cm/openmax" name="enesuzun2002/android_hardware_samsung_slsi-cm_openmax" remote="nexus" />
+	<project path="hardware/samsung_slsi-cm/exynos" name="android_hardware_samsung_slsi-cm_exynos" remote="enesuzun2002" />
+	<project path="hardware/samsung_slsi-cm/exynos5" name="android_hardware_samsung_slsi-cm_exynos5" remote="enesuzun2002" />
+	<project path="hardware/samsung_slsi-cm/exynos7420" name="android_hardware_samsung_slsi-cm_exynos7420" remote="enesuzun2002" />
+	<project path="hardware/samsung_slsi-cm/openmax" name="android_hardware_samsung_slsi-cm_openmax" remote="enesuzun2002" />
 
 	<!-- t0lte: Samsung Galaxy Note II LTE -->
 	<project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="renouveau" />
@@ -80,6 +91,35 @@
 	<project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="unlegacy" revision="stable" />
 	<project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="unlegacy" revision="stable" />
 	<project path="external/jhead" name="platform/external/jhead" remote="aosp" revision="nougat-mr2.3-release" groups="omap4,espresso,tuna" />
+
+	<!-- foster-switch: Nintendo Switch -->
+	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
+	<project name="android/android_device_nvidia_foster.git" path="device/nvidia/foster" revision="lineage-16.0-icosa-hacks" remote="sr" />
+	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_tegra-common.git" path="device/nvidia/tegra-common" remote="incom" />
+	<project name="android/android_device_nvidia_t210-common.git" path="device/nvidia/t210-common" revision="lineage-16.0" remote="sr" />
+	<project name="CM-Shield/android_device_nvidia_shield-common.git" path="device/nvidia/shield-common" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_icera.git" path="device/nvidia/icera" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_touch.git" path="device/nvidia/touch" remote="incom" />
+	<project name="kernel/l4t-kernel-4.9.git" path="kernel/nvidia/linux-4.9/kernel/kernel-4.9" revision="lineage-rel32" remote="sr" />
+	<project name="kernel/l4t-kernel-nvidia.git" path="kernel/nvidia/linux-4.9/kernel/nvidia" remote="sr" />
+	<project name="kernel/l4t-kernel-cypress-fmac.git" path="kernel/nvidia/linux-4.9/kernel/cypress-fmac" revision="lineage-16.0" remote="sr" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_kernel_nvgpu.git" path="kernel/nvidia/linux-4.9/kernel/nvgpu" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/tegra/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_tegra.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/tegra" remote="incom" />
+	<project name="kernel/l4t-platform-t210-switch.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/icosa" remote="sr" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t210" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_light.git" path="hardware/nvidia/light" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_memtrack.git" path="hardware/nvidia/memtrack" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_power.git" path="hardware/nvidia/power" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_thermal.git" path="hardware/nvidia/thermal" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_sensors.git" path="hardware/nvidia/sensors" remote="incom" />
+	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO.git" path="hardware/STMicroElectronics/SensorHAL_IIO" revision="lineage-16.0" remote="sr" />
+	<project name="android/android_hardware_nintendo_joycond.git" path="hardware/nintendo/joycond" revision="lineage-16.0" remote="sr" />
+	<project name="android/android_external_libevdev.git" path="external/libevdev" revision="lineage-16.0" remote="sr" />
+	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
+	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" />
 
 	<!-- x86_64: Generic x86_64 -->
 <!--
