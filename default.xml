@@ -664,7 +664,6 @@
   
   <!-- Renouveau -->
   <include name="snippets/renouveau.xml" />
-  <include name="snippets/devices.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
